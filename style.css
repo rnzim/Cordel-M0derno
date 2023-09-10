@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: 'Passion One', cursive;
+    
+}
+h1{
+    font-size: 10vh;
+  
+}
+
+
+p{
+    font-size: 5vh;
+    font-family:  'Sriracha', cursive;
+}
+.normal{
+  padding: 10px;
+  margin: 20px;
+  background-size: contain;
+  background-position: top left;
+
+  width: 400px;
+  font-family: 'Passion One', cursive;
+
+}
+#img1{
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    background-image: url('background001.jpg');
+    height: 90vh;
+    
+    color: white;
+    padding: 10px;
+    
+}
+.p{
+    
+    background-color: rgba(0, 0, 0, 0.515);
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    width: 400px;
+    background-position:  top left;
+    
+}
+#img2{
+    background-image: url('background002.jpg');
+    background-size: cover;
+    background-position: top left;
+    background-attachment: fixed;
+    height: 90vh;
+
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
