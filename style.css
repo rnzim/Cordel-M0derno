@@ -43,8 +43,8 @@ p{
     background-position: right center;
     background-attachment: fixed;
     background-image: url('background001.jpg');
-    padding-bottom: 20vh;
-    padding-top: 20vh;
+    padding-bottom: 30vh;
+    padding-top: 30vh;
     
     color: white;
     padding: 10px;
@@ -53,7 +53,9 @@ p{
 .p{
     
     background-color: rgba(0, 0, 0, 0.515);
-    width: 50vw;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 20px;
     
     color: white;
     padding-bottom: 10vh;
@@ -66,8 +68,8 @@ p{
     background-size: cover;
     background-position: top left;
     background-attachment: fixed;
-    padding-bottom: 40vh;
-    padding-top: 40vh;
+    padding-bottom: 30vh;
+    padding-top: 30vh;
 
 }
 
@@ -76,4 +78,13 @@ footer{
     text-align: center;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: overline;
+    padding: 0px;
+    color: antiquewhite;
 }
